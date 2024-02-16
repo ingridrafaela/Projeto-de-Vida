@@ -5,4 +5,12 @@
     --botao-ativo: #3A3775E;
     --botao-inativo:rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba (58, 55, 94, 0.3)
-)
+
+
+    )
+
+    body-{
+        background-color: var(--cor-de-fundo);
+        color: var(--branco);
+        font-family:"Chakara Petch", sans-serif;
+    }
