@@ -33,6 +33,10 @@ return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + 
     font-size: 20px;
     text-align: center;
 }
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
+function calculaTempo(tempoObjetivo) {
+    let tempoAtual = new Date();
+    let tempoFinal = tempoObjetivo - tempoAtual;
 
   
   
